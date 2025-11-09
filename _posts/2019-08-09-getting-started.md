@@ -1,8 +1,7 @@
 ---
-title: Getting Started
+title: 开始
 description: >-
-  Get started with Chirpy basics in this comprehensive overview.
-  You will learn how to install, configure, and use your first Chirpy-based website, as well as deploy it to a web server.
+  在此综合概述中开始了解 Chirpy 基础知识。您将学习如何安装、配置和使用您的第一个基于 Chirpy 的网站，以及将其部署到 Web 服务器。
 author: cotes
 date: 2019-08-09 20:55:00 +0800
 categories: [Blogging, Tutorial]
@@ -11,44 +10,44 @@ pin: true
 media_subpath: '/posts/20180809'
 ---
 
-## Creating a Site Repository
+## 创建站点存储库
 
-When creating your site repository, you have two options depending on your needs:
+创建站点存储库时，根据需要有两个选项：
 
-### Option 1. Using the Starter (Recommended)
+### 选项 1.使用启动器（推荐）
 
-This approach simplifies upgrades, isolates unnecessary files, and is perfect for users who want to focus on writing with minimal configuration.
+这种方法简化了升级，隔离了不必要的文件，非常适合想要专注于以最少配置编写的用户。
 
-1. Sign in to GitHub and navigate to the [**starter**][starter].
-2. Click the <kbd>Use this template</kbd> button and then select <kbd>Create a new repository</kbd>.
-3. Name the new repository `<username>.github.io`, replacing `username` with your lowercase GitHub username.
+1. 登录到 GitHub 并导航到 [**starter**][starter].
+2. 单击按钮 <kbd>Use this template</kbd> 然后选择 <kbd>Create a new repository</kbd>.
+3. 将新存储库命名为 `<username>.github.io`， 替换 `username` 为您的小写 GitHub 用户名。
 
-### Option 2. Forking the Theme
+### 选项 2.分叉主题
 
-This approach is convenient for modifying features or UI design, but presents challenges during upgrades. So don't try this unless you are familiar with Jekyll and plan to heavily modify this theme.
+这种方法方便修改功能或 UI 设计，但在升级过程中会带来挑战。因此，除非您熟悉 Jekyll 并计划大量修改此主题，否则不要尝试此作。
 
-1. Sign in to GitHub.
-2. [Fork the theme repository](https://github.com/cotes2020/jekyll-theme-chirpy/fork).
-3. Name the new repository `<username>.github.io`, replacing `username` with your lowercase GitHub username.
+1. 登录到 GitHub。
+2. [分叉主题存储库](https://github.com/cotes2020/jekyll-theme-chirpy/fork).
+3. 将新存储库命名为 `<username>.github.io`， 替换 `username` 为您的小写 GitHub 用户名。
 
-## Setting up the Environment
+## 设置环境
 
-Once your repository is created, it's time to set up your development environment. There are two primary methods:
+创建存储库后，就可以设置开发环境了。有两种主要方法：
 
-### Using Dev Containers (Recommended for Windows)
+### 使用开发容器（推荐用于 Windows）
 
-Dev Containers offer an isolated environment using Docker, which prevents conflicts with your system and ensures all dependencies are managed within the container.
+Dev Containers 使用 Docker 提供隔离的环境，防止与系统发生冲突并确保所有依赖项都在容器内进行管理。
 
 **Steps**:
 
-1. Install Docker:
-   - On Windows/macOS, install [Docker Desktop][docker-desktop].
-   - On Linux, install [Docker Engine][docker-engine].
-2. Install [VS Code][vscode] and the [Dev Containers extension][dev-containers].
-3. Clone your repository:
-   - For Docker Desktop: Start VS Code and [clone your repo in a container volume][dc-clone-in-vol].
-   - For Docker Engine: Clone your repo locally, then [open it in a container][dc-open-in-container] via VS Code.
-4. Wait for the Dev Containers setup to complete.
+1. 安装 Docker：
+   - 在 Windows/macOS 上，安装 [Docker Desktop][docker-desktop].
+   - 在 Linux 上，安装 [Docker Engine][docker-engine].
+2. 安装 [VS Code][vscode] 和 [Dev Containers extension][dev-containers].
+3. 克隆存储库：
+   - 对于 Docker 桌面：启动 VS Code 并在 [clone your repo in a container volume][dc-clone-in-vol].
+   - 对于 Docker 引擎：在本地克隆存储库， 然后在 [open it in a container][dc-open-in-container] 打开它。
+4. 等待开发容器设置完成。
 
 ### Setting up Natively (Recommended for Unix-like OS)
 

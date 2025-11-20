@@ -9,12 +9,12 @@ theme: jekyll-theme-chirpy
 lang: en
 
 # Change to your timezone › https://zones.arilyn.cc
-timezone:
+timezone: Asia/Shanghai
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: D2epsl2ep # the main title
+title: Deepsleep # the main title
 
 tagline: 沉睡不醒 # it will display as the subtitle
 
@@ -23,7 +23,7 @@ description: >- # used by seo meta and the atom feed
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://D2epsl2ep.github.io', note that it does not end with a '/'.
-url: ""
+url: "https://d2epsl2ep.github.io"
 
 github:
   username: github_D2epsl2ep # change to your GitHub username

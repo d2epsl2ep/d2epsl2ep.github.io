@@ -1,5 +1,5 @@
 ---
-layout: 标签
+layout: Tags
 icon: fas fa-tags
 order: 2
 ---

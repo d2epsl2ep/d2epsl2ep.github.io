@@ -1,5 +1,5 @@
 ---
-layout: 档案
+layout: Archive
 icon: fas fa-archive
 order: 3
 ---

@@ -2,8 +2,8 @@
 title: 自定义网站图标
 author: cotes
 date: 2019-08-11 00:34:00 +0800
-categories: [Blogging, Tutorial]
-tags: [favicon]
+categories: [博客, 教程]
+tags: [图标]
 ---
 
 [**Chirpy**](https://github.com/cotes2020/jekyll-theme-chirpy/)的[网站图标(favicons)](https://www.favicon-generator.org/about/)存放在`assets/img/favicons/`{: .filepath}目录中。您可能希望用自己的图标替换它们。以下部分将指导您创建和替换默认的网站图标。

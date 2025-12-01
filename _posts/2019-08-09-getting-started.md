@@ -5,8 +5,8 @@ description: >-
   您将学习如何安装、配置和使用您的第一个基于Chirpy的网站，以及如何将其部署到Web服务器上。
 author: cotes
 date: 2019-08-09 20:55:00 +0800
-categories: [Blogging, Tutorial]
-tags: [getting started]
+categories: [博客, 教程]
+tags: [入门指南]
 pin: true
 media_subpath: '/posts/20180809'
 ---

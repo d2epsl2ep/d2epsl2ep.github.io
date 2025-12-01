@@ -2,11 +2,8 @@
 title: 开启Windows 10/11系统隐藏的高性能模式
 author: d2epsl2ep
 date: 2024-06-20 12:00:00
-categories:
-  - Windows
-  - 系统优化
-tags:
-  - 电源计划
+categories: [博客, 教程]
+tags: [电源计划]
 ---
 
 # 开启Windows 10/11系统隐藏的高性能模式
